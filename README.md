@@ -1,5 +1,5 @@
 # pattern-program-in-java
-//import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 
 Right Triangle pattern.
 
