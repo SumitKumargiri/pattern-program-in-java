@@ -2,7 +2,7 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 
 //Right Triangle pattern.
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
@@ -14,7 +14,7 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 
 }
 
-output:- 
+/*output:- 
 1
 12
 123
@@ -22,7 +22,7 @@ output:-
 12345 
 */
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
@@ -32,7 +32,7 @@ output:-
         }
     }
 }
-outpur: -
+/*outpur: -
 1
 22
 333
@@ -40,7 +40,7 @@ outpur: -
 55555
 */
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         int count = 0;
         for (int i = 1; i <= 5; i++) {
@@ -52,7 +52,7 @@ outpur: -
         }
     }
 }
-output:-
+/*output:-
 1 2 
 3 4 5 
 6 7 8 9 
@@ -60,7 +60,7 @@ output:-
 15 16 17 18 19 20 
 */
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         int n = 3;
         for (int i = 1; i <= n; i++) {
@@ -71,13 +71,13 @@ output:-
         }
     }
 }
-output:-
+/*output:-
 1 2 3 
 2 3 
 3 
 */
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         int n = 12;
         for (int i = 0; i <= n; i += 2) {
@@ -88,7 +88,7 @@ output:-
         }
     }
 }
-output:-
+/*output:-
 0 
 0 2 
 0 2 4 
@@ -98,7 +98,7 @@ output:-
 0 2 4 6 8 10 12 
 */
 
-/*public class Tri_pattern2 {
+public class Tri_pattern2 {
     public static void main(String args[]) {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
@@ -113,7 +113,7 @@ output:-
         }
     }
 }
-output:-
+/*output:-
 1 
 2  2 
 1  1  1 
@@ -121,36 +121,4 @@ output:-
 1  1  1  1  1
 */
 
-public class Tri_pattern2 {
-    public static void main(String args[]) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.println(" ");
-            }
-            for (int j = 1; j <= i; j++) {
-                System.out.println(j + " ");
-            }
-            for (int j = 1; j <= i; j++) {
-                System.out.println(j + " ");
-            }
-            System.out.println();
-        }
-    }
-}
-/*
- * for(int i = 1;i<=5;i++)
- * {
- * for (int j = 1; j <= i; j++) {
- * System.out.println(" ");
- * }
- * for (int j = 1; j <= i; j++) {
- * System.out.println(j + " ");
- * }
- * for (int j = 1; j <= i; j++) {
- * System.out.println(j + " ");
- * }
- * System.out.println();
- * }
- * System.out.println();
- * }
- */
+
